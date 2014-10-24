@@ -1,0 +1,3 @@
+#!/home/kivy/android/python-for-android/build/python-install/bin/python.host
+from Cheetah.CheetahWrapper import _cheetah
+_cheetah()

@@ -1,0 +1,6 @@
+#!/home/kivy/android/python-for-android/build/python-install/bin/python.host
+
+from Cheetah import DirectiveAnalyzer
+
+if __name__ == '__main__':
+    DirectiveAnalyzer.main()

@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emtronics.sickbeardrunner"
+    android:versionCode="5"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <service
+            android:name="com.emtronics.sickbeardrunner.PythonService"
+            android:process=":py" >
+            <intent-filter>
+                <action android:name="com.emtronics.sickbeardrunner.PythonService" />
+            </intent-filter>
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+</manifest>
