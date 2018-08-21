@@ -8,6 +8,6 @@ Sickbeard - This is a Library project, it contains most of the code for communic
 
 SickbeardOnAndoid - This is the actual Android app, it reference the Library project 'Sickbeard' above. All it does is instantiate the Fragment in the Sickbeard project.
 
-The reason for a Library project was so the Sickbeard Fragment can also be in the the PowerNZB app, AND you can have a standalone app with the SickbeardOnAndroid project.
+The reason for a Library project was so the Sickbeard Fragment can also be in the PowerNZB app, AND you can have a standalone app with the SickbeardOnAndroid project.
 
 SickbeardRunner is a separate project due it's size, it would have made the PowerNZB app far too large if it were incorperated.
